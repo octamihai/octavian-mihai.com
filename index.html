@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Octavian Mihai - Angel Investor and Financier based in New York and Monaco.">
+    <title>Octavian Mihai | Angel Investor & Financier</title>
+
+<!-- Force HTTP to HTTPS Redirect -->
+<script>
+    if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost') {
+        window.location.replace('https://' + window.location.host + window.location.pathname + window.location.search);
+    }
+</script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .photo-card {
+            flex: 0 0 380px;
+            height: 520px;
+            background: url('Octavian-Mihai.jpeg') center/cover no-repeat;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+            margin-right: 80px;
+        }
+        .content {
+            flex: 1;
+            max-width: 520px;
+        }
+        .name {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.8rem;
+            line-height: 1.05;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 1.25rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            opacity: 0.85;
+            margin-bottom: 40px;
+        }
+        .bio {
+            font-size: 1.12rem;
+            margin-bottom: 50px;
+            opacity: 0.9;
+        }
+        .button {
+            display: inline-block;
+            padding: 16px 42px;
+            border: 1px solid #e5e5e5;
+            color: #e5e5e5;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .button:hover {
+            background: #e5e5e5;
+            color: #0a0a0a;
+        }
+
+        /* Footer Banner */
+        .footer {
+            background: #111;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+            border-top: 1px solid #222;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .photo-card {
+                flex: 0 0 280px;
+                height: 380px;
+                margin-right: 0;
+                margin-bottom: 50px;
+            }
+            .name {
+                font-size: 2.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="container">
+            <!-- Photo Card -->
+            <div class="photo-card"></div>
+            
+            <!-- Content -->
+            <div class="content">
+                <h1 class="name">Octavian Mihai</h1>
+                <p class="title">Angel Investor &amp; Financier</p>
+                
+                <p class="bio">
+                    Romanian-American angel investor and financier with a background in medicine. 
+                    Early investor in SpaceX, xAI, and Neuralink. 
+                    Currently based in New York and Monaco.
+                </p>
+                
+                <a href="mailto:contact@octavian-mihai.com" class="button">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discrete Footer Banner -->
+    <div class="footer">
+        © Octavian Mihai • All rights reserved.
+    </div>
+
+    <!-- SEO Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Octavian Mihai",
+      "jobTitle": "Angel Investor & Financier",
+      "description": "Romanian-American angel investor and financier focused on frontier technologies.",
+      "url": "https://octavian-mihai.com",
+      "image": "https://octavian-mihai.com/Octavian-Mihai.jpeg"
+    }
+    </script>
+</body>
+</html>
